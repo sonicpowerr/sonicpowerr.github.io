@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="SONIC POWER X1 — ultimate wireless gaming headphones.">
+<title>SONIC POWER X1 — Gaming Audio</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="loader"><b>SONIC POWER</b><span></span><small>INITIALIZING AUDIO SYSTEM</small></div>
+
+<nav class="nav">
+  <a class="brand" href="#home">SONIC<span>POWER</span></a>
+  <div class="nav-links">
+    <a href="#features">FEATURES</a><a href="#product">X1</a><a href="#gaming">GAMING</a><a href="#specs">SPECS</a>
+  </div>
+  <div class="nav-right"><button class="cart-btn" onclick="openCart()">CART <b id="cartCount">0</b></button><a class="buy-mini" href="#buy">BUY NOW</a></div>
+  <button class="menu">☰</button>
+</nav>
+
+<main>
+<section class="hero" id="home">
+  <canvas id="hero-canvas"></canvas>
+  <div class="scanlines"></div>
+  <div class="hero-copy">
+    <p class="eyebrow">SONIC POWER // X1 GAMING SERIES</p>
+    <h1>DOMINATE<br><span>THE SOUND.</span></h1>
+    <p class="hero-sub">Immersive spatial audio. Zero-lag wireless. Tournament-ready power engineered for gamers who play to win.</p>
+    <div class="hero-actions">
+      <a class="button primary" href="#buy">BUY X1 — ₹7,999</a>
+      <a class="button ghost" href="#product">EXPLORE 3D <span>↗</span></a>
+    </div>
+    <div class="hero-tags"><span>2.4GHz WIRELESS</span><span>ANC</span><span>60H BATTERY</span></div>
+  </div>
+  <div class="hud"><span>SYS.ONLINE</span><span>LATENCY 12MS</span><span>AUDIO 96KHZ</span></div>
+  <div class="model-hint">DRAG / TOUCH TO ROTATE • AUTO SPIN</div>
+</section>
+
+<section class="marquee"><div>SONIC POWER&nbsp;&nbsp;•&nbsp;&nbsp;BUILT FOR VICTORY&nbsp;&nbsp;•&nbsp;&nbsp;SONIC POWER&nbsp;&nbsp;•&nbsp;&nbsp;BUILT FOR VICTORY&nbsp;&nbsp;•&nbsp;&nbsp;</div></section>
+
+<section class="features" id="features">
+  <div class="section-title"><p class="eyebrow">X1 PERFORMANCE SYSTEM</p><h2>PLAY WITHOUT<br><span>LIMITS.</span></h2></div>
+  <div class="feature-grid">
+    <article><b>01</b><i>◉</i><h3>LOW-LATENCY 2.4G</h3><p>12ms wireless response keeps every shot, step and reaction synchronized.</p></article>
+    <article><b>02</b><i>⌁</i><h3>SPATIAL GAMING AUDIO</h3><p>Hear direction, distance and movement with a precision-tuned virtual soundstage.</p></article>
+    <article><b>03</b><i>◒</i><h3>ADAPTIVE ANC</h3><p>Cut distractions and lock into the game with intelligent noise cancellation.</p></article>
+    <article><b>04</b><i>ϟ</i><h3>60H BATTERY</h3><p>Long sessions without constantly reaching for a charger.</p></article>
+  </div>
+</section>
+
+<section class="product" id="product">
+  <div class="product-visual"><canvas id="product-canvas"></canvas><div class="rgb-ring"></div></div>
+  <div class="product-copy">
+    <p class="eyebrow">FLAGSHIP GAMING HEADSET</p>
+    <h2>SONIC<br><span>X1</span></h2>
+    <div class="rating">★★★★★ <small>4.9 / 5 • 2,418 PLAYERS</small></div>
+    <p class="lead">A sculpted wireless gaming headset built around competitive-grade response, immersive detail and all-night comfort.</p>
+    <div class="price"><strong>₹7,999</strong><del>₹10,999</del><em>27% OFF</em></div>
+    <div class="color-choice"><span>FINISH</span><button class="active">STEALTH BLACK</button><button>ICE WHITE</button></div>
+    <div class="buy-row"><button class="button primary big" onclick="addToCart()">ADD TO CART</button><button class="button outline big" onclick="buyNow()">BUY NOW →</button></div>
+  </div>
+</section>
+
+<section class="gaming" id="gaming">
+  <div class="gaming-copy"><p class="eyebrow">COMPETITIVE ADVANTAGE</p><h2>HEAR THEM<br><span>BEFORE THEY HEAR YOU.</span></h2><p>Footsteps. Reloads. Directional cues. X1 is tuned to expose the details that decide the match.</p></div>
+  <div class="radar"><div class="radar-grid"></div><div class="radar-line"></div><div class="radar-dot d1"></div><div class="radar-dot d2"></div><div class="radar-dot d3"></div><div class="radar-label l1">FOOTSTEP 18M</div><div class="radar-label l2">RELOAD 32M</div><div class="radar-label l3">MOVEMENT 7M</div></div>
+</section>
+
+<section class="spec-section" id="specs">
+  <div class="section-title center"><p class="eyebrow">HARDWARE</p><h2>BUILT LIKE<br><span>A WEAPON.</span></h2></div>
+  <div class="spec-grid">
+    <div><strong>40MM</strong><span>DYNAMIC DRIVERS</span></div><div><strong>12MS</strong><span>WIRELESS LATENCY</span></div>
+    <div><strong>60H</strong><span>BATTERY LIFE</span></div><div><strong>5.4</strong><span>BLUETOOTH</span></div>
+    <div><strong>32Ω</strong><span>IMPEDANCE</span></div><div><strong>7.1</strong><span>VIRTUAL SURROUND</span></div>
+  </div>
+</section>
+
+<section class="buy" id="buy">
+  <div><p class="eyebrow">SONIC POWER X1</p><h2>READY TO<br><span>LEVEL UP?</span></h2><p>One headset. Every game. No compromise.</p></div>
+  <div class="buy-card"><div class="mini-product">X1</div><div><small>SONIC POWER X1</small><h3>₹7,999</h3><p>Free shipping • 1 year warranty</p></div><button class="button primary big" onclick="buyNow()">BUY NOW</button></div>
+</section>
+</main>
+
+<footer><div class="brand">SONIC<span>POWER</span></div><p>ENGINEERED FOR VICTORY.</p><div><a href="#features">Features</a> <a href="#specs">Specs</a> <a href="#buy">Buy</a></div><small>© 2026 SONIC POWER&nbsp;&nbsp; • &nbsp;&nbsp;MADE BY ABHINAV DESWAL</small></footer>
+
+
+<div id="abhinavModal" class="abhinav-modal">
+  <div class="abhinav-card">
+    <button class="abhinav-close" onclick="closeAbhinavModal()">×</button>
+    <div class="abhinav-mark">AB</div>
+    <p class="eyebrow">WEBSITE EXPERIENCE BY ABHINAV</p>
+    <h2>Want a website<br><span>like this?</span></h2>
+    <p class="abhinav-text">
+      I can create premium 3D, gaming, product and business websites
+      with custom animations and interactive experiences.
+    </p>
+    <a class="abhinav-email" href="mailto:deswalabhi107@gmail.com?subject=Website%20Project%20Inquiry">
+      deswalabhi107@gmail.com
+    </a>
+    <a class="button primary big abhinav-contact"
+       href="mailto:deswalabhi107@gmail.com?subject=I%20want%20a%20website%20like%20SONIC%20POWER">
+       EMAIL ABHINAV →
+    </a>
+    <div class="made-by">MADE BY <strong>ABHINAV DESWAL</strong></div>
+  </div>
+</div>
+
+<div id="toast"></div>
+<div id="cartModal" class="modal"><div class="modal-box"><button class="close" onclick="closeCart()">×</button><p class="eyebrow">YOUR CART</p><h2>SONIC X1</h2><div class="cart-line"><span>SONIC POWER X1</span><strong>₹7,999</strong></div><div class="total"><span>Total</span><b>₹7,999</b></div><button class="button primary big" onclick="checkout()">PROCEED TO CHECKOUT</button></div></div>
+
+<script type="importmap">
+{
+  "imports": {
+    "three": "https://cdn.jsdelivr.net/npm/three@0.180.0/build/three.module.js"
+  }
+}
+</script>
+<script type="module" src="script.js"></script>
+</body>
+</html>
